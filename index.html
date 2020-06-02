@@ -4,17 +4,61 @@
   Global Finance of APAC
   </title>
     
-
-
+<script>
+      window.samespaceAsyncInit = function () {
+        var apiKey = ""
+        var page = window.location.pathname.split('/')[2]
+        switch (page) {
+          case 'india':
+          case 'inside-sales-1':
+          case 'inside-sales-2':
+            apiKey = '8afba9c838af';
+            break;
+          case 'ison':
+            apiKey = 'd8e05044f8be'
+            break;
+          case 'verloop':
+            apiKey = '568b5db3ca7b'
+            break;
+          case 'exl':
+            apiKey = 'c68f79272823'
+            break;
+          case 'dev':
+            apiKey = '167bcb0c5348'
+            break;
+          case 'aus':
+            apiKey = 'AtLvUyQOKhbW'
+            break;
+          case 'indigo':
+            apiKey = 'KaV8WsqZkYwc'
+            break;
+          case 'nsw':
+            apiKey = 'folU1L7jQsCg'
+            break;
+          case 'cloudcall':
+            apiKey = 'Pr7e4m6ztrDM'
+            break;
+          case 'indiademo':
+            apiKey = 'P7uckL8I9DqT'
+            break;
+          case 'vibhor':
+            apiKey = 'SkJ0Kdsc9ATH'
+            break;
+          case 'rishi':
+            apiKey = 'UAscIlgkh0IC'
+            break;
+          case 'hcl':
+            apiKey = 'C5J6VK56EDCH'
+            break;
+        }
+        samespace.init({
+          apiKey: apiKey
+        })
+      }
+    </script>
+<script src="https://messaging.samespace.com/sdk/embed.js" async="" defer=""></script>
     </head>
   <body>
-    <script>
-  window.samespaceAsyncInit = function () {
-    samespace.init({
-      apiKey: "C5J6VK56EDCH"
-    })
-  }
-</script>
-    <script  async defer  src="https://messaging.samespace.com/sdk/embed.js"></script>
+hi
   </body>
 </html>
